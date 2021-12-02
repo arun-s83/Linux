@@ -1,0 +1,23 @@
+[osboxes@ansiblecontroller network-scripts]$ cat ifcfg-enp0s3
+TYPE=Ethernet
+PROXY_METHOD=none
+BROWSER_ONLY=no
+BOOTPROTO=static
+DEFROUTE=yes
+IPADDR=192.168.1.12
+GATEWAY=192.168.1.1
+NETMASK=255.255.255.0
+DNS1=8.8.8.8
+DNS2=8.8.4.4
+IPV4_FAILURE_FATAL=no
+IPV6INIT=yes
+IPV6_AUTOCONF=yes
+IPV6_DEFROUTE=yes
+IPV6_FAILURE_FATAL=no
+NAME=enp0s3
+UUID=38850678-8c5d-47fb-894e-368bd2056ba6
+DEVICE=enp0s3
+ONBOOT=yes
+[osboxes@ansiblecontroller network-scripts]$ pwd
+/etc/sysconfig/network-scripts
+
